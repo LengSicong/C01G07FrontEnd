@@ -1,0 +1,19 @@
+.instruction{
+    border: 1px solid darken($off-white, 10%);
+    border-radius: 5px;
+    margin-top: $lg;
+    margin-bottom: $lg;
+    padding: $sm $lg;
+
+    h1{
+        color: black;
+        font-size: $lg;
+        text-align: center;
+    }
+
+    .browser-default{
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
