@@ -49,6 +49,7 @@
     cursor: pointer;
     margin-right: $md;
     padding: $xs $sm;
+
 }
 
 .button-container button:first-child {
@@ -80,3 +81,4 @@
 .button-container button:last-child:hover{
     background-color: darken(red, 20%);
 }
+
