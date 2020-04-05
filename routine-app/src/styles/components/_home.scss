@@ -1,55 +1,53 @@
-#home{
-    background-image: url('../../assets/img/background.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: space-around;
-    height: 100vh;
-    width: 100vw;
+#home {
+  background-image: url("../../assets/img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
 
-    section{
-        background-color: rgba(255,255,128, .5);
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 4rem;
-        height: 60%;
-        width: 35%;
-    }
+  section {
+    background-color: rgba(255, 255, 128, 0.5);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+    height: 60%;
+    width: 35%;
+  }
 
-    h2{
-        font-size: $xlg;
-        text-align: center;
-        color: $off-white;
-    }
+  h2 {
+    font-size: $lg;
+    text-align: center;
+    color: $off-white;
+  }
 
-    h1{
-        font-size: $xlg;
-        text-align: center;
-        color: $off-white;
-    }
+  h1 {
+    font-size: $lg;
+    text-align: center;
+    color: $off-white;
+  }
 
-    .begin-button-container {
-        margin-top: $xxlg;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
+  .begin-button-container {
+    margin-top: $lg;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    a.begin-button{
-        background-color: $green;
-        color: #fff;
-        cursor: pointer;
-        padding: $normal;
-        display: block;
-        border-radius: $button-radius;
-        text-align: center;
-        transition: 0.3s linear all;
-        font-size: $md;
-    }
+  a.begin-button {
+    background-color: $green;
+    color: #fff;
+    cursor: pointer;
+    padding: $normal;
+    display: block;
+    border-radius: $button-radius;
+    text-align: center;
+    transition: 0.3s linear all;
+    font-size: $md;
+  }
 
-    a.begin-button:hover{
-        background-color: darken($green, 10%);
-    }
-
+  a.begin-button:hover {
+    background-color: darken($green, 10%);
+  }
 }
