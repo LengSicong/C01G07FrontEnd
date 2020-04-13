@@ -11,9 +11,30 @@
         text-align: center;
     }
 
+    .begin{
+        font-size: $sm + 0.2rem;
+    }
+    .begin2{
+        font-size: $sm + 0.2rem;
+    }
     .browser-default{
+        font-size: $sm;
         padding-left: 30px;
         margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .browser-default2{
+        font-size: $sm;
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .left{
+        font-size: $sm - 0.25rem;
+        margin-bottom: 15px;
+    }
+    .right{
+        font-size: $sm - 0.25rem;
         margin-bottom: 15px;
     }
 }

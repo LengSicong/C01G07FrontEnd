@@ -1,49 +1,34 @@
 [
     {
-        "question": "Question 1 ?",
-        "optionA": "Option 1A",
-        "optionB": "Option 1B",
-        "optionC": "Option 1C",
-        "optionD": "Option 1D"
+        "question": "What kind of hardware product do you require assistance with ?",
+        "optionA": "Ephone",
+        "optionB": "Epad",
+        "optionC": "Emac",
+        "optionD": "Epod"
     },
 
     {
-        "question": "Question 2 ?",
-        "optionA": "Option 2A",
-        "optionB": "Option 2B",
-        "optionC": "Option 2C",
-        "optionD": "Option 2D"
+        "question": "What kind of assistance on this product do you require ?",
+        "optionA": "Replacement of parts",
+        "optionB": "Maintaining of parts",
+        "optionC": "Hardware repair",
+        "optionD": "Product accessories"
     },
 
     {
-        "question": "Question 3 ?",
-        "optionA": "Option 3A",
-        "optionB": "Option 3B",
-        "optionC": "Option 3C",
-        "optionD": "Option 3D"
+        "question": "Is this product still within warranty period ?",
+        "optionA": "Within 1 year of purchase",
+        "optionB": "Within 1 year of warranty expiration date",
+        "optionC": "Warranty has expired",
+        "optionD": "I can not remember"
     },
 
     {
-        "question": "Question 4 ?",
-        "optionA": "Option 4A",
-        "optionB": "Option 4B",
-        "optionC": "Option 4C",
-        "optionD": "Option 4D"
-    },
-
-    {
-        "question": "Question 5 ?",
-        "optionA": "Option 5A",
-        "optionB": "Option 5B",
-        "optionC": "Option 5C",
-        "optionD": "Option 5D"
-    },
-
-    {
-        "question": "Question 6 ?",
-        "optionA": "Option 6A",
-        "optionB": "Option 6B",
-        "optionC": "Option 6C",
-        "optionD": "Option 6D"
+        "question": "Did you have a good experience using this product ?",
+        "optionA": "Strongly agree",
+        "optionB": "Agree",
+        "optionC": "Neutral",
+        "optionD": "Disagree"
     }
+
 ]

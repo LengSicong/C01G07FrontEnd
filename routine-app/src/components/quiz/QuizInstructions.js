@@ -7,11 +7,17 @@ const QuizInstructions = () => (
         <Helmet><title>Quiz Instructions - Routing App</title></Helmet>
         <div className='instruction container'>
             <h1>How to Do The Quiz ?</h1>
-            <p>Instructions of Quiz:</p>
+            <p className="begin">Instructions of Quiz:</p>
             <ul className="browser-default" id="main-list">
-                <li>Choose the kind of product you have questions</li>
-                <li>Choose the category of service you want</li>
-                <li>Choose the agent skills you prefer</li>
+                <li>Select the kind of product you have questions</li>
+                <li>Select the category of service you want</li>
+                <li>Clarrify the warranty of your product</li>
+            </ul>
+            <p className="begin2">Tips:</p>
+            <ul className="browser-default2" >
+                <li>    1.Click Previous and Next to check adjacent questoins </li>
+                <li>    2.Click Quit to end quiz anytime you want</li>
+                <li>    3.Warning: once quiz is ended, your selection would not be saved</li>
             </ul>
             <div>
                 <span className="left"><Link to ="/">No take me back</Link></span>
